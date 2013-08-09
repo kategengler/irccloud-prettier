@@ -10,6 +10,7 @@ This is a screenshot of the stylesheet at a narrow width, which IRCcloud does no
 ## To use in a browser
 
 * Get the Stylish add-on. 
+* Install the style from [userstyles.org](http://userstyles.org/styles/91603/irccloud-prettier?r=1376032200)
 
 
 ## To use in [Fluid App](http://fluidapp.com/)
