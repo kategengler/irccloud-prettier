@@ -4,7 +4,7 @@ This is a screenshot of the stylesheet applied at full width. Note, 'Show member
 ![Screenshot of full size](https://dl.dropboxusercontent.com/u/38141173/irccloud-prettier/normal.png)
 
 This is a screenshot of the stylesheet at a narrow width, which IRCcloud does not support by default: 
-'Show members' is turned off. The stylesheet hides the top bar, and the channel list at small sizes. 
+'Show members' is turned on. The stylesheet hides the top bar, and the channel list at small sizes. 
 ![Screenshot of narrow window](https://dl.dropboxusercontent.com/u/38141173/irccloud-prettier/narrow.png)
 
 ## To use in a browser
