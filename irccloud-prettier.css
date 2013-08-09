@@ -15,6 +15,19 @@ div.log {
     border-radius: .5em !important;
 }
 
+.time-12hr.time-noseconds div.log div.messageRow[data-name^=GitHub], .time-24hr.time-seconds div.log div.messageRow[data-name^=GitHub] {
+    background-color: rgb(237,237,239) !important;
+    border: none !important;
+}
+
+.time-12hr.time-noseconds div.log div.messageRow[data-name^=GitHub] .content, .time-24hr.time-seconds div.log div.messageRow[data-name^=GitHub] .content {
+    color: rgb(124, 124, 124) !important;
+}
+
+.time-12hr.time-noseconds div.log div.messageRow[data-name^=GitHub] .content a, .time-24hr.time-seconds div.log div.messageRow[data-name^=GitHub] .content a {
+    color: rgb(124, 124, 124) !important;
+}
+
 .time-12hr.time-noseconds div.log span.date, .time-24hr.time-seconds div.log span.date {
     float: right !important;
 }
@@ -23,6 +36,10 @@ div.log {
     display: block !important;
     width: 80% !important;
     margin-top: 2px !important;
+}
+
+.content a {
+    color: rgb(63, 63, 63) !important;
 }
 
 div.log div.row span.mode_OP, .inputInfo span.mode_OP, .nickcell span.mode_OP, #memberContextMenu h3 span.mode_OP {
