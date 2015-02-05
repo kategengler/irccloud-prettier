@@ -5,6 +5,14 @@ div.log {
     padding-right: .5em !important;
 }
 
+.viewport {
+    margin-left: .5em;
+}
+
+.viewportcell {
+    background-color: rgb(237, 237, 239) !important
+}
+
 .time-12hr.time-noseconds div.log div.messageRow, .time-24hr.time-seconds div.log div.messageRow {
     padding-left: 10px !important;
     background-color: rgb(244, 244, 244) !important;
@@ -13,10 +21,12 @@ div.log {
     margin-top: .5em !important;
     border: 1px solid #ccc !important;
     border-radius: .5em !important;
+    margin-right: .5em !important;
+    margin-bottom: .5em !important;
 }
 
 .time-12hr.time-noseconds div.log div.messageRow[data-name^=GitHub], .time-24hr.time-seconds div.log div.messageRow[data-name^=GitHub] {
-    background-color: rgb(237,237,239) !important;
+    background-color: rgb(237, 237, 239) !important;
     border: none !important;
 }
 
